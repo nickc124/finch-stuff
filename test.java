@@ -17,3 +17,24 @@ public class testBox {
 	}
 	
 }
+
+
+
+package test;
+
+public class point {
+	
+	public static void main(String[] args) {
+		Finch f1 = new Finch();
+		
+		for(int i=0;i<10;i++) {
+			System.out.println(f1.getMagnetometer());
+			
+		}
+		
+		f1.stop();
+		f1.disconnect();
+	}
+	
+}
+
