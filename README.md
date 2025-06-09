@@ -34,7 +34,7 @@ if(f1.getLight("L")>f1.getLight("R")) {
 	f1.setMotors(-10, 10);
 }
 
-```java
+```
 
 ---
 - What was your motivation?
