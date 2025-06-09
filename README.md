@@ -18,21 +18,22 @@ i wanted the finch to follow me when i move.
 ### Design Cycle
 <img src="design_cycle.png" alt="design cycle" width="300" height="300">
 
-Imagine - finch to follow
-plan - use dist and light censors to follow
-create - code
-test - pain
-repeat
+1. Imagine - finch to follow
+2. plan - use dist and light censors to follow
+3. create - code
+4. test - pain
+5. repeat
 
 ---
 
 ### Code to Highlight
 ```java
 if(f1.getLight("L")>f1.getLight("R")) {
-					f1.setMotors(10,-10);
-				}else if(f1.getLight("L")<=f1.getLight("R")) {
-					f1.setMotors(-10, 10);
-				}
+	f1.setMotors(10,-10);
+}else if(f1.getLight("L")<=f1.getLight("R")) {
+	f1.setMotors(-10, 10);
+}
+
 ```java
 
 ---
